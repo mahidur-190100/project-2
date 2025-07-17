@@ -4,12 +4,24 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.company-name{
+    font-weight: 700;
+    font-size: 3rem;
+}
 /* bg-color */
 .bg-color{
     background-color: rgba(255, 144, 14, 0.1);
 }
 
-
+/* buttom */
+.primary-btn{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
 
 /* dark02 */
 .dark02{
@@ -22,6 +34,7 @@
 .navbar{
     /* display: flex; */
     justify-content: space-between;
+    align-items: center;
 }
 .nav_name{
     /* display: flex; */
@@ -34,4 +47,25 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+.banner-title{
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-name{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-img{
+    width: 100%;
+}
+
+/* responsive medio */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
 }
