@@ -23,14 +23,28 @@
     font-weight: 600;
 }
 
+/* sahred tyle */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* dark02 */
 .dark02{
   color: #424242;
 }
-
+.dark03{
+    color: #727272;
+}
 .display-flex{
     display: flex;
 }
+main section{
+    margin-top: 130px;
+}
+
+
+
 .navbar{
     /* display: flex; */
     justify-content: space-between;
@@ -61,6 +75,29 @@
 .banner-img{
     width: 100%;
 }
+/* teams-stule */
+.teams{
+    align-items: center;
+}
+.teams-photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-title{
+    margin-left: 73px;
+    /* padding-left: 80px; */
+    max-width: 450px;
+}
+.feature-title{
+    font-size: 2.18rem;
+    font-weight: 700;
+}
+#Quick list{
+    font-size: 500;
+}
+
+
 
 /* responsive medio */
 @media screen and (max-width: 576px) {
