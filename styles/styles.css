@@ -1,0 +1,37 @@
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* bg-color */
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+
+/* dark02 */
+.dark02{
+  color: #424242;
+}
+
+.display-flex{
+    display: flex;
+}
+.navbar{
+    /* display: flex; */
+    justify-content: space-between;
+}
+.nav_name{
+    /* display: flex; */
+    list-style: none;   
+    margin-right: 30px;
+}
+.nav-link {
+    text-decoration: none;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
